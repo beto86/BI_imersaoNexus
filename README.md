@@ -1,35 +1,40 @@
 # BI_imersaoNexus
 
-Este repositório contém um estudo de caso desenvolvido no **Power BI**, com foco na análise de dados de uma loja fictícia de brinquedos chamada *Toystore*. O projeto foi realizado como parte do curso **DataDriven**, ministrado por **Leticia Ismirele** e **Karine Lagos**, com o objetivo de aplicar conceitos de visualização e análise de dados em um contexto realista.
+Durante a imersão promovida pelo curso DataDriven, ministrado por **Leicia Ismirile** e **Karina Lagos**, foram desenvolvidos três dashboards temáticos, cada um abordando uma área estratégica dentro do contexto empresarial. O objetivo foi aplicar, na prática, conceitos de visualização de dados, modelagem e construção de indicadores em Power BI. Abaixo, seguem os painéis desenvolvidos:
 
 ---
 
-## 📊 Requisitos
-### Análise Comercial
-- **Total vendido por período**: análise temporal das vendas para identificar sazonalidades e tendências.
-- **Receita total**: consolidação das receitas gerais.
+## 📊 Dashboards
+### Logística
+Este painel apresenta uma visão geral dos principais KPIs logísticos, como:
+- **Malha de distribuição por cidade.
+- **Valor do frete ao longo do tempo.
 - **Quantidade de itens vendidos**: volume total de produtos vendidos.
-- **Quantidade de pedidos**: número total de transações realizadas.
-- **Quantidade de itens por pedido**: média de produtos vendidos por transação.
-- **Ranking de produtos**: identificação dos melhores e piores produtos em termos de vendas e receita.
-- **Análise de receita por loja, produto, UF e categoria**: detalhamento geográfico e categórico das vendas.
-- **Receita vs Meta**: comparação entre os resultados alcançados e os objetivos planejados por período e produto.
-- **Simulações**: projeções para cenários estratégicos variados.
-### Análise de Produtos
-- **Produtos mais vendidos**: os itens com maior volume de vendas.
-- **Categorias mais vendidas**: análise das categorias mais populares entre os consumidores.
-- **Receita por origem de produto**: identificação das origens que geram maior receita.
-- **Maiores fornecedores/marcas**: marcas e fornecedores com maior contribuição para a receita total.
-### Análise Financeira
-- **Visão de saldo por data**: evolução do saldo disponível ao longo do tempo.
-- **Gastos por categorias e despesas**: identificação das principais fontes de custo.
-- **Gastos por departamento**: análise das despesas por setor da empresa.
-- **Principais gastos**: detalhamento das maiores fontes de despesa.
-- **Saldo geral**: resumo financeiro consolidado, demonstrando a saúde financeira da empresa.
+- **Indicadores como On Time Delivery (OTD), total de viagens, custo logístico, cubagem e peso transportado.
+- **Desempenho por região (atraso vs. dentro do prazo).
+- **Distribuição por tipo de veículo.
+- **O dashboard permite análise detalhada por período, destino e tipo de transporte (Convencional/Urgente).
+### Agrofruits (Vendas)
+Focado na performance comercial de uma empresa do setor agrícola, este painel traz:
+- **Receita e volume de vendas por sazonalidade.
+- **Receita por fazenda produtora.
+- **Distribuição de volume por país importador.
+- **Análise por tipo de transporte utilizado.
+- **Tabela dinâmica com a sazonalidade de cultivos por mês e tipo de fruta.
+- **O painel facilita a identificação de períodos de maior produção e melhores desempenhos logísticos e comerciais.
+### Financeiro: Fluxo de Caixa
+Este painel apresenta o controle financeiro por meio da análise de:
+- **Entradas e saídas mensais.
+- **Receitas, despesas e saldo acumulado.
+- **Despesas por setor (RH, Logística, Compras, etc.).
+- **Despesas por classificação (gastos com pessoal, serviços, impostos, etc.).
+- **Com filtros por ano e setor, o painel permite uma visão clara da saúde financeira da organização.
 
 ---
 
 ## 🗂️ Base de Dados
+- **Excel
+- **CSV
 
 ---
 
@@ -43,16 +48,12 @@ Este repositório contém um estudo de caso desenvolvido no **Power BI**, com fo
 ## 📈 Resultados
 
 
-- **Análise Comercial**
-![Análise Comercial](images/Screenshot_24.png)
+- ** Logística**
+![Logística](images/logistica.png)
 - **Análise de Produtos**
-![Análise de Produtos](images/Screenshot_25.png)
+![Vendas](images/vendas.png)
 - **Análise Financeira**
-![Análise Financeira](images/Screenshot_26.png)
-
-Para explorar e interagir com o relatório completo, acesse o link abaixo:
-
-[🔗 Clique aqui para interagir com o relatório](https://app.powerbi.com/reportEmbed?reportId=2133d8d7-e6a6-46cf-9c4c-920837952905&autoAuth=true&ctid=d4f732bb-4afd-44b5-abea-ec3fa01667de)
+![Fiananceiro](images/financeiro.png)
 
 ---
 
