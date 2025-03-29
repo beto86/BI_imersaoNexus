@@ -50,7 +50,7 @@ Este painel apresenta o controle financeiro por meio da análise de:
 
 - **Logística**
 ![Logística](images/logistica.png)
-- **Análise de Produtos**
+- **Vendas**
 ![Vendas](images/vendas.png)
 - **Análise Financeira**
 ![Fiananceiro](images/financeiro.png)
